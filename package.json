@@ -1,7 +1,8 @@
 {
-  "name": "casita",
+  "name": "3d-room-modeling",
   "version": "1.0.0",
   "private": true,
+  "author": "Shamveel Khan",
   "description": "Design your dream home in 3D, right in your browser. No installs, no CAD degree.",
   "scripts": {
     "dev": "next dev",

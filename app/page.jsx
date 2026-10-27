@@ -7,7 +7,7 @@ const Studio = dynamic(() => import("../src/Studio"), {
   ssr: false,
   loading: () => (
     <div className="boot">
-      <div className="boot-logo">casita</div>
+      <div className="boot-logo">3D Room Modeling</div>
       <div className="boot-sub">warming up the studio…</div>
     </div>
   ),

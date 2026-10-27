@@ -1,12 +1,11 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Casita — design your home in 3D",
+  title: "3D Room Modeling — design your home in 3D",
   description:
-    "Casita is a free, open-source browser studio for designing your dream home in 3D. Drag rooms and furniture onto a live blueprint — no installs, no CAD degree.",
-  metadataBase: new URL("https://casita.rohitraj.tech"),
+    "3D Room Modeling is a free, open-source browser studio for designing your dream home in 3D. Drag rooms and furniture onto a live blueprint — no installs, no CAD degree.",
   openGraph: {
-    title: "Casita — design your home in 3D",
+    title: "3D Room Modeling — design your home in 3D",
     description:
       "Drag rooms and furniture onto a live 3D blueprint. Free, open-source, runs in your browser.",
     type: "website",

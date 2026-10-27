@@ -1,16 +1,16 @@
 <div align="center">
 
-# 🏠 Casita
+# 🏠 3D Room Modeling
 
 ### Design your dream home in 3D — right in your browser.
 
 No installs. No CAD degree. No login. Just drag rooms and furniture onto a live blueprint and watch your home come to life.
 
-![Casita demo](media/casita-demo.gif)
+![3D Room Modeling demo](media/3d-room-modeling-demo.gif)
 
-[**▶ Watch the 15s demo**](media/casita-demo.mp4) · [Run it locally](#-run-it-in-30-seconds) · [Add a piece](#-add-your-own-furniture-in-10-lines) · [Report a bug](https://github.com/rohitguta2432/casita/issues)
+[**▶ Watch the 15s demo**](media/3d-room-modeling-demo.mp4) · [Run it locally](#-run-it-in-30-seconds) · [Add a piece](#-add-your-own-furniture-in-10-lines)
 
-![MIT License](https://img.shields.io/badge/license-MIT-ff7a59) ![Next.js](https://img.shields.io/badge/Next.js-15-black) ![React Three Fiber](https://img.shields.io/badge/react--three--fiber-9-6d8cc9) ![no%20backend](https://img.shields.io/badge/backend-none-4c9d63)
+![Next.js](https://img.shields.io/badge/Next.js-15-black) ![React Three Fiber](https://img.shields.io/badge/react--three--fiber-9-6d8cc9) ![no%20backend](https://img.shields.io/badge/backend-none-4c9d63)
 
 </div>
 
@@ -18,7 +18,7 @@ No installs. No CAD degree. No login. Just drag rooms and furniture onto a live 
 
 ## What is this?
 
-**Casita** is a tiny, free, open-source home-design studio that runs entirely in the browser. Pick a piece from the catalog, click the floor, and it pops into a real 3D scene. Drag it around, spin it, recolor it, furnish a whole apartment — then **record a 15-second orbit video** of your design with one click.
+**3D Room Modeling** is a tiny, free, open-source home-design studio that runs entirely in the browser. Pick a piece from the catalog, click the floor, and it pops into a real 3D scene. Drag it around, spin it, recolor it, furnish a whole apartment — then **record a 15-second orbit video** of your design with one click.
 
 It's built to be *read*. The entire "3D engine" is a handful of small files and every piece of furniture is just a few boxes and cylinders — so it's a genuinely friendly place to learn React Three Fiber.
 
@@ -39,8 +39,8 @@ It's built to be *read*. The entire "3D engine" is a handful of small files and 
 You need [Node.js](https://nodejs.org) 18+. That's the only requirement.
 
 ```bash
-git clone https://github.com/rohitguta2432/casita.git
-cd casita
+git clone https://github.com/Shamveel-Khan/3d-room-modeling.git
+cd 3d-room-modeling
 npm install
 npm run dev
 ```
@@ -89,7 +89,7 @@ Save. It appears in the panel instantly. **That's the whole extension API** — 
 
 ## 🧠 How it works (the 60-second tour)
 
-Casita is deliberately small. Here's the whole thing:
+3D Room Modeling is deliberately small. Here's the whole thing:
 
 ```
 app/
@@ -118,9 +118,9 @@ Three ideas do most of the work:
 
 ## 🌐 Deploy your own
 
-Casita is a static-friendly Next.js app, so it deploys anywhere in one click:
+3D Room Modeling is a static-friendly Next.js app, so it deploys anywhere in one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rohitguta2432/casita)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shamveel-Khan/3d-room-modeling)
 
 Or `npm run build && npm run start` on any Node host.
 
@@ -128,17 +128,13 @@ Or `npm run build && npm run start` on any Node host.
 
 PRs welcome — especially new furniture pieces (see [above](#-add-your-own-furniture-in-10-lines), it's 10 lines). Fork it, add your piece, open a PR. First-timers encouraged.
 
-## 📄 License
-
-[MIT](LICENSE) — do anything you like with it.
-
 ---
 
 <div align="center">
 
-Built by [**Rohit Raj**](https://rohitraj.tech) · [more AI agents & experiments](https://rohitraj.tech/agents)
+Built by **Shamveel Khan**
 
-*If Casita made you smile, drop it a ⭐ — it genuinely helps.*
+*If 3D Room Modeling made you smile, drop it a ⭐ — it genuinely helps.*
 
 </div>
 
@@ -146,6 +142,4 @@ Built by [**Rohit Raj**](https://rohitraj.tech) · [more AI agents & experiments
 
 ### 🤝 Work with me
 
-I'm an **AI Consultant · Forward Deployed Engineer** — I embed with teams and ship AI to production: agents, MCP integrations, and LLM features, with evals proving they work.
-
-**→ [rohitraj.tech/en/hire](https://rohitraj.tech/en/hire)**
+I'm **Shamveel Khan** — I build product experiences and AI-driven engineering work.

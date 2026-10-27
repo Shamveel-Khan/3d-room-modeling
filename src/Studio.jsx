@@ -167,7 +167,7 @@ export default function Studio() {
   const shot = () => {
     const gl = useStore.getState().gl;
     if (!gl) return;
-    download(gl.domElement.toDataURL("image/png"), "casita.png");
+    download(gl.domElement.toDataURL("image/png"), "3d-room-modeling.png");
     flash("Snapshot saved 📸");
   };
   const recordTour = () => {
@@ -186,7 +186,7 @@ export default function Studio() {
     const rec = new MediaRecorder(canvas.captureStream(30), { mimeType: type, videoBitsPerSecond: 8_000_000 });
     const chunks = [];
     rec.ondataavailable = (e) => e.data.size && chunks.push(e.data);
-    rec.onstop = () => download(URL.createObjectURL(new Blob(chunks, { type: "video/webm" })), "casita-tour.webm");
+    rec.onstop = () => download(URL.createObjectURL(new Blob(chunks, { type: "video/webm" })), "3d-room-modeling-tour.webm");
     setRecording(true);
     rec.start();
     setTimeout(() => {
@@ -222,7 +222,7 @@ export default function Studio() {
           <div className="brand">
             <span className="dot" />
             <div>
-              <div className="brand-name">casita</div>
+              <div className="brand-name">3D Room Modeling</div>
               <div className="brand-tag">design your home in 3D</div>
             </div>
           </div>
@@ -261,7 +261,7 @@ export default function Studio() {
               </div>
             </div>
           ))}
-          <a className="ghlink" href="https://github.com/rohitguta2432/casita" target="_blank" rel="noreferrer">
+          <a className="ghlink" href="https://github.com/Shamveel-Khan/3d-room-modeling" target="_blank" rel="noreferrer">
             ★ Star on GitHub
           </a>
         </aside>

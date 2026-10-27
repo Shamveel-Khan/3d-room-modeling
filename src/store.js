@@ -6,7 +6,7 @@ const SNAP = 0.5;
 export const snap = (v) => Math.round(v / SNAP) * SNAP;
 
 const uid = () => Math.random().toString(36).slice(2, 9);
-const KEY = "casita:v1";
+const KEY = "3d-room-modeling:v1";
 
 export const useStore = create((set, get) => ({
   items: [],
